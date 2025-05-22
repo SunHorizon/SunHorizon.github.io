@@ -1,14 +1,11 @@
-import './App.css'
+import Landing from './components/Landing';
+import About from './components/About';
 
 function App() {
   return (
-    <div className="container">
-      <h1>Sarfaraz Syed</h1>
-      <p>Software Developer | Problem Solver | Game Programmer</p>
-      <div className="links">
-        <a href="https://github.com/SunHorizon" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
-      </div>
+    <div className="App">
+      <Landing />
+      <About />
     </div>
   );
 }
