@@ -5,7 +5,7 @@ import './Landing.css';
 const Landing = () => {
 
     return (
-        <section className="landing">
+        <section className="landing" id="landing">
             <div className="intro">
                 <h1 className="name">Sarfaraz Syed</h1>
                 <p className="title">Software Developer</p>
