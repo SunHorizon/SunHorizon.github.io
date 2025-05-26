@@ -7,10 +7,11 @@ const Landing = () => {
     <section className="landing" id="landing">
       <div className="content fade-in">
         <h1>Hi, I'm Sarfaraz Syed</h1>
-        <h2>Software Developer | Problem Solver | Game Programmer</h2>
+        <h2>Software Developer | Problem Solver | Fast Learner</h2>
         <p className="tagline">
           Transforming ideas into clean, efficient, and impactful code.
         </p>
+
 
         <div className="buttons">
           <a href="#projects" className="btn">View My Work</a>

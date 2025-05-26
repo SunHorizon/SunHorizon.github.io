@@ -1,38 +1,43 @@
 
 
 .projects{
-    background-color: #0a192f;
-    color: #ccd6f6;
-    padding: 80px 20px;
-    text-align: center;
+  background-color: #0a192f;
+  color: #ccd6f6;
+  padding: 80px 20px;
+  text-align: center;
 }
 
 .projects h2 {
-    font-size: 2.5rem;
-    margin-bottom: 40px;
-    color: #64ffda;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #64ffda;
 }
 
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
-  max-width: 1000px;
+  gap: 70px 30px; /* 40px row-gap, 30px column-gap */
+  max-width: 1500px;
   margin: 0 auto;
 }
 
-.project-card{
-    background-color: #112240;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(2, 12, 27, 0.7);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-align: left;
+.project-card {
+  background-color: #112240;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(2, 12, 27, 0.7);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* ensures full height */
+  padding: 1rem;
+  position: relative;
 }
 
 .project-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 30px rgba(2, 12, 27, 0.9);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(2, 12, 27, 0.9);
 }
 
 .project-card h3 {
@@ -48,6 +53,7 @@
 }
 
 .tech-stack {
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 
@@ -70,5 +76,91 @@
 }
 
 .project-links a:hover {
+  color: #ffffff;
+}
+
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 25, 47, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal-card {
+  background-color: #112240;
+  padding: 30px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 8px 30px rgba(2, 12, 27, 0.9);
+  position: relative;
+  text-align: left;
+}
+
+.modal-card h2 {
+  margin-bottom: 20px;
+  color: #64ffda;
+}
+
+.modal-card p {
+  color: #a8b2d1;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.modal-links a {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 15px;
+  color: #64ffda;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.modal-links a:hover {
+  color: #ffffff;
+}
+
+.close-btn {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #ccd6f6;
+  cursor: pointer;
+}
+
+.card-button {
+  display: flex;
+  justify-content: flex-end; /* align to right */
+  margin-top: auto;
+}
+
+
+.card-button button {
+  background-color: #64ffda;
+  color: #0a192f;
+  border: none;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card-button button:hover {
+  background-color: #52e0c4;
   color: #ffffff;
 }

@@ -3,7 +3,7 @@
 .landing {
   background-color: #0a192f;
   color: #ccd6f6;
-  height: 100vh;
+  height: 96vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,7 +14,7 @@
 }
 
 .content {
-  max-width: 800px;
+  max-width: 900px;
 }
 
 h1 {
@@ -94,6 +94,7 @@ h2 {
   animation: fadeIn 1.2s ease-in forwards;
   opacity: 0;
 }
+
 
 @keyframes fadeIn {
   to {
