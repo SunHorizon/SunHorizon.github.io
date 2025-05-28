@@ -15,7 +15,7 @@ const Landing = () => {
 
         <div className="buttons">
           <a href="#projects" className="btn">View My Work</a>
-          <a href="/resume.pdf" className="btn btn-outline" target="_blank" rel="noopener noreferrer">Download Resume</a>
+          <a href="#about" className="btn btn-outline">About Me</a>
         </div>
 
         <div className="social-icons">

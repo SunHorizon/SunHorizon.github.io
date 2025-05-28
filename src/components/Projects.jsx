@@ -79,14 +79,67 @@ const projects = [
     demo: '#', // Add demo link if available
   },
   {
-    title: 'Billiards Game',
+    title: 'Unity3D Survival Shooter Game',
     description:
-      `I built a 2D billiards game in C featuring a custom physics engine, utilizing object-oriented design and precise memory management to ensure high-performance computations. 
-      To support real-time game state persistence and rule enforcement, I integrated a Python-based local server that connected the C backend to a SQLite database. 
-      The front end was fully interactive, developed using HTML, CSS, and JavaScript, and included a responsive billiard table interface with animated cues and balls. 
-      I also implemented asynchronous communication using JavaScript Promises for handling GET and POST requests, enabling smooth interaction between client-side gameplay and backend logic.`,
-    tech: ['C', "Python", "HTML", "CSS", "JavaScript", "SQLite"],
-    github: 'https://github.com/SunHorizon/BilliardsGame',
+      `Developed a first-person survival shooter game in Unity where players must fend off waves of enemies for as many rounds as possible. 
+      Implemented core FPS mechanics including player movement, shooting, and wave-based enemy spawning.  Designed an escalating difficulty system where each round increases in enemy count and aggression. Integrated health and ammo systems, along with visual and audio feedback for immersive gameplay. 
+      This project demonstrates foundational game development skills in Unity and C#, including object pooling, basic AI behavior, and UI elements such as health bars and round counters.`,
+    tech: ["Unity"],
+    github: 'https://github.com/SunHorizon/Unity3D-Survial-Game',
+    demo: '#', // Add demo link if available
+  },
+  {
+    title: 'Android Space Shooter Game',
+    description:
+      `This is a 2D top-down space shooter developed in Java for the Android platform. In this game, players control a spacecraft and must shoot down waves of enemy ships advancing from the top of the screen. The gameplay emphasizes fast reflexes, precision shooting, and survival for as long as possible in a hostile space environment.`,
+    tech: ["Java", "Android SDK"],
+    github: 'https://github.com/SunHorizon/Andriod-ShooterGame',
+    demo: '#', // Add demo link if available
+  },
+  {
+    title: 'GJK Algorithm (C++)',
+    description:
+      `This project implements the Gilbert–Johnson–Keerthi (GJK) algorithm for detecting collisions between convex shapes using C++. 
+      The GJK algorithm is widely used in physics engines and game development due to its efficiency and accuracy in determining intersection between convex objects. 
+      Built with SDL (Simple DirectMedia Layer) for rendering, the application visually demonstrates how the GJK algorithm computes the Minkowski difference and identifies whether two shapes intersect in real-time.`,
+    tech: ["C++"],
+    github: 'https://github.com/SunHorizon/GJK_SarfarazSyed',
+    demo: '#', // Add demo link if available
+  },
+  {
+    title: 'Game Engine',
+    description:
+      `The Custom 2D/3D Game Engine is a modular game development framework built from scratch in C++ with OpenGL for rendering. 
+      Designed to support both 2D and 3D graphics, the engine features a real-time rendering pipeline, input handling, and scene management through a scene graph architecture. 
+      It allows developers to manage game objects efficiently and  interactively via keyboard and mouse input. The engine's modular structure makes it easily extensible,  allowing integration of additional components like physics engines or scripting systems. 
+      A basic shader system using GLSL is also implemented to enable customizable visual effects. This project serves as a strong foundational tool for learning core game engine concepts or for use in building custom games.`,
+    tech: ["C++", "OpenGL", "GLSL"],
+    github: 'https://github.com/SunHorizon/GameEngine',
+    demo: '#', // Add demo link if available
+  },
+  {
+    title: 'Mario Level Recreation in Unity 2D',
+    description:
+      `This project involves recreating a classic Super Mario Bros. level using Unity's 2D game development tools. It demonstrates fundamental platformer mechanics, including player movement, jumping, enemy interactions, and level progression. 
+      The recreation focuses on replicating the original game's physics and aesthetics to provide an authentic gameplay experience. Developed in C#, the project serves as a practical exercise in 2D game development and level design within the Unity engine.`,
+    tech: ["Unity 2D", "C#"],
+    github: 'https://github.com/SunHorizon/GameEngine',
+    demo: '#', // Add demo link if available
+  },
+  {
+    title: 'Chess Game in Java',
+    description:
+      `This project is a console-based chess game developed in Java, offering a complete implementation of standard chess rules. It allows two players to compete in a text-based interface, handling all core gameplay aspects including move validation, detection of check and checkmate, and special moves such as castling and en passant.`,
+    tech: ["Java"],
+    github: 'https://github.com/SunHorizon/Chess',
+    demo: '#', // Add demo link if available
+  },
+  {
+    title: 'Street Fighter III: New Generation - Browser-Based Fighting Game',
+    description:
+      `This project is a browser-based fighting game inspired by Street Fighter III: New Generation, developed using HTML, CSS, and JavaScript. It features iconic characters such as Ryu, Chun-Li, Makoto, and Sean, each with unique animations and health indicators. The game offers a one-on-one combat experience with a CPU opponent, complete with a dynamic "VS" screen and a health bar system`,
+    tech: ["HTML", "CSS", "JavaScript"],
+    github: 'https://github.com/SunHorizon/StreetFighter3_JavaScript',
     demo: '#', // Add demo link if available
   },
 ];
