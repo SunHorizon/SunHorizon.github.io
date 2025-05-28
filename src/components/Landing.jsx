@@ -20,7 +20,7 @@ const Landing = () => {
 
         <div className="social-icons">
           <a href="https://github.com/SunHorizon" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://www.linkedin.com/in/sarfaraz-syed-3ba02014a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/sarfaraz-syed32/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <a href="mailto:sarfaraz.m.syed123@gmail.com">Email</a>
         </div>
       </div>
