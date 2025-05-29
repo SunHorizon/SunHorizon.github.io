@@ -8,15 +8,15 @@ const About = () => {
             <h2>About Me</h2>
             <div className="content">
                 <p>
-                    Hi! I'm Sarfaraz Syed, a passionate software developer with a love for solving complex problems and building interactive digital experiences.
-                    I specialize in full-stack development, game programming, and creating efficient, user-friendly applications.
+                    Hi! I'm Sarfaraz Syed, a Computer Science student at the University of Guelph with a strong background in software and game development.
+                    I enjoy building scalable web apps, designing intuitive user interfaces, and solving complex technical challenges.
                 </p>
                 <p>
-                    With a strong foundation in languages like Java, C++, and JavaScript, and hands-on experience in tools like React, Next.js, and Unity,
-                    I enjoy turning ideas into code that makes an impact. Whether it's web development or game design, I approach every project with curiosity and creativity.
+                    My experience spans full-stack development, game engines, and automation tools using technologies such as React, Next.js, Java, C/C++, and Unity.
+                    I've completed multiple co-op terms as a SharePoint Developer and Software Developer Intern, working on real-world systems in both academic and enterprise settings.
+                    I'm constantly seeking opportunities to grow as a developer and create meaningful digital solutions.
                 </p>
             </div>
-
             <div className="skills-section">
                 <h3>Skills & Tools</h3>
                 <ul className="skills-list">
