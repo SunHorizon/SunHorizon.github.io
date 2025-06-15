@@ -3,6 +3,20 @@ import './Projects.css';
 
 const projects = [
   {
+    title: 'Wildlife Sighting Tracker',
+    description:`
+    I developed a feature-rich Android application that enables users to capture and identify wildlife species using custom machine learning models. Built with Java and XML using Android Jetpack components, the app supports both photo capture via CameraX and image selection from the gallery. 
+    Species recognition is powered by ML Kit's Custom Image Labeling using a pre-trained TensorFlow Lite model, allowing for accurate identification beyond the limitations of default models.
+    Each sighting is logged with rich metadata—including timestamp, GPS coordinates from FusedLocationProviderClient, and user notes—and persisted locally using a Room database. 
+    I designed the ImageEntity schema to store relevant details such as image paths, labels, and location data. A RecyclerView-based sightings gallery displays past entries with efficient image loading via Glide and metadata rendering.
+    Additionally, I integrated the Google Maps SDK to visualize sightings as clustered interactive pins with info windows. The application features a modern, material-compliant UI with a BottomNavigationView, FloatingActionButton, and intuitive image preview overlays. 
+    Users can preview, save, or cancel image entries before committing, and manage their history with deletion options for greater control.
+    `,   
+    tech: ['Java', 'XML', 'Room', 'ML Kit', 'Maps', "Android Java"],
+    github: 'https://github.com/SunHorizon/WildlifeTracker',
+    demo: '#', // Add demo link if available
+  },
+  {
     title: 'Health Services Locator Web App',
     description:`
     I designed and developed a responsive web application that enables users to locate nearby health services—such as clinics, hospitals, and pharmacies—by leveraging real-time geolocation and advanced search filtering. 
