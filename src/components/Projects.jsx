@@ -3,6 +3,19 @@ import './Projects.css';
 
 const projects = [
   {
+    title: 'MindMaze Game',
+    description:`
+    I designed and developed MindMaze, a memory-based puzzle game built with React Native and Expo, where players must memorize and navigate invisible paths to reach a goal tile. 
+    The game showcases expertise in mobile UI development, game logic, animation handling, and local data persistence. I implemented dynamic tile-based movement, custom path memorization mechanics, and win/loss conditions using a dynamic grid system. 
+    A custom D-pad navigation control was created using TouchableOpacity, delivering a modern and responsive user interface. To enhance gameplay immersion, I built a memorization phase that transitions visible tiles to hidden ones with smooth fade-out animations using Animated.timing. 
+    I also integrated a real-time game timer and a persistent best-time tracking system using AsyncStorage. The app features a multi-screen navigation structure with React Navigation, including a main menu, level selector, and gameplay screen, with stack control logic such as disabling the back button during gameplay. 
+    Levels are loaded from external .json files, enabling scalable content updates and clean separation of game data. Emphasis was placed on clean UX, accessibility, and mobile responsiveness, with features such as visual tile feedback, seamless state transitions, and clear endgame messaging.
+    `,   
+    tech: ['React Native', 'JavaScript', 'Expo', 'AsyncStorage'],
+    github: 'https://github.com/SunHorizon/mindmaze-game',
+    demo: '#', // Add demo link if available
+  },
+  {
     title: 'Wildlife Sighting Tracker',
     description:`
     I developed a feature-rich Android application that enables users to capture and identify wildlife species using custom machine learning models. Built with Java and XML using Android Jetpack components, the app supports both photo capture via CameraX and image selection from the gallery. 
