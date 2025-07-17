@@ -3,6 +3,18 @@ import './Projects.css';
 
 const projects = [
   {
+    title: 'QR Code File Management App',
+    description:`
+    I designed and developed a secure full-stack web application using Next.js and TypeScript that allows users to upload files and instantly generate QR codes for simplified access and sharing, significantly improving download efficiency. 
+    Supabase Auth and Storage were integrated to manage user sessions and securely host files, with automated QR code generation and access control. The application features a two-view dashboard: one for uploading files and another for managing past uploads with quick navigation. 
+    I implemented robust file management tools, including searchable filenames, date range filters, and pagination using skip and take logic to ensure smooth handling of large datasets. QR code functionality includes dynamic previews, downloadable PNGs, printable versions, and modal overlays for focused viewing—powered by the html-to-image library. 
+    The user interface was built with Tailwind CSS and includes responsive design elements such as drag-and-drop upload zones, status indicators, modals, and clearly labeled action buttons for printing and downloading, offering a clean and intuitive user experience.
+    `,   
+    tech: ['Next.js', 'TypeScript', 'Supabase', 'Tailwind CSS'],
+    github: 'https://github.com/SunHorizon/qrvault',
+    demo: '#', // Add demo link if available
+  },
+  {
     title: 'MindMaze Game',
     description:`
     I designed and developed MindMaze, a memory-based puzzle game built with React Native and Expo, where players must memorize and navigate invisible paths to reach a goal tile. 

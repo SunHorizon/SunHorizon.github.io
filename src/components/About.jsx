@@ -25,14 +25,16 @@ const About = () => {
                     <li>HTML/CSS</li>
                     <li>Python</li>
                     <li>C/C++</li>
-                    <li>Dart</li>
                     <li>SQL</li>
                     <li>MongoDB</li>
                     <li>React</li>
+                    <li>React Native</li>
                     <li>Next.js</li>
                     <li>Node/Express</li>
                     <li>Flutter</li>
                     <li>FireBase</li>
+                    <li>Tailwind CSS</li>
+                    <li>TypeScript</li>
                 </ul>
             </div>
         </section>
